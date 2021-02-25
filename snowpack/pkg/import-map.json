@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "copy-text-to-clipboard": "./copy-text-to-clipboard.js",
+    "svelte/internal": "./svelte/internal.js"
+  }
+}
