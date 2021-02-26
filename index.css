@@ -1,15 +1,11 @@
 html {
   overflow: scroll;
   overflow-x: hidden;
+  scrollbar-width: none;
 }
 
 ::-webkit-scrollbar {
-  width: 0px;
-  background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background: transparent;
+  display: none;
 }
 
 body {
