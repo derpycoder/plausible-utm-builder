@@ -163,7 +163,7 @@ function create_fragment(ctx) {
 			attr(textarea, "rows", "3");
 			attr(textarea, "placeholder", "https://www.plausible.io?utm_campaign=Campaign&utm_source=Source&utm_medium=Medium");
 			textarea.value = /*builtURL*/ ctx[4];
-			attr(section, "class", "relative p-8 mb-6 bg-white rounded-lg shadow-2xl");
+			attr(section, "class", "relative p-8 mb-6 bg-white rounded-lg shadow-xl h-fixed");
 			attr(main, "class", "w-11/12 xs:w-10/12 sm:w-9/12 md:w-8/12 lg:w-7/12 xl:w-6/12 2xl:2-5/12");
 		},
 		m(target, anchor) {
