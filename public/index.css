@@ -2,6 +2,7 @@ html {
   overflow: scroll;
   overflow-x: hidden;
 }
+
 ::-webkit-scrollbar {
   width: 0px;
   background: transparent;
@@ -19,6 +20,9 @@ body {
   width: 300.75px;
   min-width: 300.75px;
   max-width: 300.75px;
-
   margin: 0 auto;
+}
+
+.h-fixed {
+  height: 332px;
 }

@@ -39,7 +39,7 @@
 
 
 <main class="w-11/12 xs:w-10/12 sm:w-9/12 md:w-8/12 lg:w-7/12 xl:w-6/12 2xl:2-5/12">
-    <section class="relative p-8 mb-6 bg-white rounded-lg shadow-2xl">
+    <section class="relative p-8 mb-6 bg-white rounded-lg shadow-xl h-fixed">
         <form on:submit|preventDefault class="relative flex flex-col justify-between inline-block mb-6 text-left">
             <div class="flex mb-5">
                 <label for="company_website"
